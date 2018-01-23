@@ -1,0 +1,74 @@
+html {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  font-family: "Helvetica";
+
+}
+
+header {
+  display: flex;
+  width: 960rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo .image {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+.banner {
+  background-image: url("./images/moto.jpeg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.banner .new {
+  font-size: 1rem;
+}
+
+.banner .text {
+  font-size: 2rem;
+}
+
+.nav {
+  background-color: firebrick;
+}
+
+.product {
+  background-color: white;
+
+}
+
+.product .text {
+    background-color: black;
+}
+
+
+.location {
+
+}
+
+.location .text{
+  background-color: black;
+
+}
+
+.footer {
+
+}
